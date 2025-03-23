@@ -58,8 +58,7 @@ type ConjurAPIKey struct {
 }
 
 type ConjurJWT struct {
-	// The Conjur account name associated with the API key.
-	// Required for authentication.
+	// Account is the Conjur organization account name.
 	Account string `json:"account"`
 
 	// The conjur authn jwt webservice id

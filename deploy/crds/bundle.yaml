@@ -4406,9 +4406,7 @@ spec:
                               description: Jwt enables JWT authentication using Kubernetes service account tokens.
                               properties:
                                 account:
-                                  description: |-
-                                    The Conjur account name associated with the API key.
-                                    Required for authentication.
+                                  description: Account is the Conjur organization account name.
                                   type: string
                                 hostId:
                                   description: |-
@@ -11739,9 +11737,7 @@ spec:
                               description: Jwt enables JWT authentication using Kubernetes service account tokens.
                               properties:
                                 account:
-                                  description: |-
-                                    The Conjur account name associated with the API key.
-                                    Required for authentication.
+                                  description: Account is the Conjur organization account name.
                                   type: string
                                 hostId:
                                   description: |-
